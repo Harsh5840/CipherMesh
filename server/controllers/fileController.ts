@@ -8,7 +8,7 @@ import fs from "fs";
 import path from "path";
 
 interface AuthenticatedRequest extends Request {
-  user?: any; // Replit Auth user object
+  user?: any;
 }
 
 class FileController {

@@ -3,7 +3,7 @@ import { storage } from "../storage";
 import { nanoid } from "nanoid";
 
 interface AuthenticatedRequest extends Request {
-  user?: any; // Replit Auth user object with claims property
+  user?: any;
 }
 
 class AuthController {
